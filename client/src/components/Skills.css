@@ -1,0 +1,41 @@
+/* Styles for the Skills component */
+.Skills {
+  background-color: #f7eedd;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.title-font {
+  color: #008dda;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.skills-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #41c9e2;
+}
+
+.skills-table th,
+.skills-table td {
+  padding: 10px;
+  border: 1px solid #41c9e2;
+  text-align: center; /* Centering text within cells */
+}
+
+.skills-table th {
+  background-color: #41c9e2;
+  color: white;
+}
+
+.skills-table tr:nth-child(even) {
+  background-color: #ace2e1;
+}
+
+.skill-logo {
+  width: 100px;
+  height: auto;
+  display: block; /* Ensures the image is centered */
+  margin: 0 auto; /* Centers the image */
+}
