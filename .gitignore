@@ -3,7 +3,7 @@
 .AppleDouble
 .LSOverride
 node_modules/
-
+.env
 # Icon must end with two \r
 Icon
 

@@ -10,7 +10,7 @@ function Skills() {
   useEffect(() => {
     const getData = async () => {
       await axios
-        .get("http://localhost:6543/api/skills")
+        .get("https://base-portfolio.onrender.com/api/skills")
         .then((response) => {
           console.log("response", response);
           setData(response.data);

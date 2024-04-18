@@ -9,7 +9,7 @@ function Projects() {
   useEffect(() => {
     const getData = async () => {
       await axios
-        .get("http://localhost:6543/api/projects")
+        .get("https://base-portfolio.onrender.com/api/projects")
         .then((response) => {
           console.log("response", response);
           setData(response.data);
