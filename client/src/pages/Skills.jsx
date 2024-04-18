@@ -38,7 +38,7 @@ function Skills() {
             <tr key={lan.name}>
               <td>
                 <img
-                  src={`../assets/${lan.logo}`}
+                  src={`../${lan.logo}`}
                   alt={`${lan.name} logo`}
                   className="skill-logo"
                 />
@@ -62,7 +62,7 @@ function Skills() {
             <tr key={tech.name}>
               <td>
                 <img
-                  src={`../assets/${tech.logo}`}
+                  src={`../${tech.logo}`}
                   alt={`${tech.name} logo`}
                   className="skill-logo"
                 />
@@ -86,7 +86,7 @@ function Skills() {
             <tr key={frks.name}>
               <td>
                 <img
-                  src={`../assets/${frks.logo}`}
+                  src={`../${frks.logo}`}
                   alt={`${frks.name} logo`}
                   className="skill-logo"
                 />
@@ -110,7 +110,7 @@ function Skills() {
             <tr key={other.name}>
               <td>
                 <img
-                  src={`../assets/${other.logo}`}
+                  src={`../${other.logo}`}
                   alt={`${other.name} logo`}
                   className="skill-logo"
                 />

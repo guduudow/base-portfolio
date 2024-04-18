@@ -29,7 +29,7 @@ function Projects() {
         <div className="project-section" key={index}>
           <div className="project-image">
             <img
-              src={`../assets/${proj.logo}`}
+              src={`../${proj.logo}`}
               alt={`${proj.name} image`}
               className="project-image"
             />
