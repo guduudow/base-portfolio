@@ -1,7 +1,3 @@
-/* body {
-  background-image: url(./mySVG.svg);
-} */
-
 .main-name {
   font-family: "DM Sans", sans-serif;
   font-weight: 600;
@@ -49,14 +45,6 @@ body {
   align-items: center;
   margin-bottom: 20px;
 }
-
-/* .main-name,
-.job-section,
-.middle-part {
-  font-weight: 600;
-  font-size: 65px;
-  color: #008dda;
-} */
 
 .about-me {
   text-align: center;
@@ -110,4 +98,67 @@ body {
 
 .btn:hover {
   background-color: #ace2e1;
+}
+
+/* Adjust the layout and font sizes based on screen size */
+@media (max-width: 768px) {
+  /* For mobile devices */
+  .home {
+    padding: 20px; /* Reduce padding */
+  }
+
+  .title-section {
+    flex-direction: column; /* Stack the title section vertically */
+    margin-bottom: 10px; /* Reduce margin */
+  }
+
+  .main-name,
+  .job-section,
+  .middle-part {
+    font-size: 40px; /* Reduce font size */
+  }
+
+  .sections-container {
+    flex-direction: column; /* Stack sections vertically */
+    align-items: center; /* Center-align the sections */
+  }
+
+  .section {
+    width: 100%; /* Full width */
+    margin: 10px 0; /* Add margin between sections */
+    padding: 20px; /* Reduce padding */
+  }
+
+  .btn {
+    padding: 8px 16px; /* Reduce button padding */
+  }
+}
+
+/* Adjustments for other screen sizes can be added similarly */
+@media (min-width: 769px) and (max-width: 1200px) {
+  /* For tablets and smaller desktops */
+  .home {
+    padding: 50px; /* Adjust padding */
+  }
+
+  .main-name,
+  .job-section,
+  .middle-part {
+    font-size: 50px; /* Adjust font size */
+  }
+
+  .sections-container {
+    flex-direction: row; /* Horizontal layout */
+    justify-content: space-around; /* Space between sections */
+  }
+
+  .section {
+    width: 45%; /* Adjust section width */
+    margin: 20px; /* Adjust margin */
+    padding: 40px; /* Adjust padding */
+  }
+
+  .btn {
+    padding: 10px 20px; /* Adjust button padding */
+  }
 }
