@@ -39,8 +39,8 @@ function Home() {
         <p>
           As the title says, I am a web developer. One that is capable of
           making, fast, fluid, beautiful websites that are scalable and on the
-          cutting edge of technology. I treat web developer as an art form. A
-          website needs certain things, such top of the line coding to ensure
+          cutting edge of technology. I treat web developement as an art form. A
+          website needs certain things, such as top of the line coding to ensure
           its relevance well beyond its years. It also needs to hook in its
           viewers with stunning displays of fluidity, color and eye-popping
           graphics. That is my guarantee for you.
