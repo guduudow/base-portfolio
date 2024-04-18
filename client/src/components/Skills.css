@@ -16,6 +16,7 @@
   width: 100%;
   border-collapse: collapse;
   border: 1px solid #41c9e2;
+  margin-bottom: 20px;
 }
 
 .skills-table th,
@@ -23,7 +24,6 @@
   padding: 10px;
   border: 1px solid #41c9e2;
   text-align: center; /* Centering text within cells */
-  width: 100px;
 }
 
 .skills-table th {
@@ -40,4 +40,71 @@
   height: auto;
   display: block; /* Ensures the image is centered */
   margin: 0 auto; /* Centers the image */
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 1024px) {
+  /* Adjustments for tablets */
+  .Skills {
+    padding: 10px;
+  }
+
+  .skills-table {
+    width: 90%; /* Reduce table width */
+  }
+
+  .skills-table th,
+  .skills-table td {
+    padding: 8px; /* Adjust padding */
+    width: auto; /* Allow columns to adjust */
+  }
+
+  .skill-logo {
+    width: 50px; /* Reduce skill logo size */
+  }
+}
+
+@media (max-width: 768px) {
+  /* Adjustments for smaller tablets and larger mobile devices */
+  .Skills {
+    padding: 8px;
+  }
+
+  .skills-table {
+    width: 100%; /* Use full width */
+    border: none; /* Remove table border */
+  }
+
+  .skills-table th,
+  .skills-table td {
+    padding: 5px;
+    border: none; /* Remove cell borders */
+  }
+
+  .skill-logo {
+    width: 40px; /* Reduce skill logo size */
+  }
+}
+
+@media (max-width: 480px) {
+  /* Adjustments for mobile devices */
+  .title-font-skills {
+    font-size: 1.5em;
+    padding: 15px;
+  }
+
+  .skills-table {
+    width: 100%;
+    border: none;
+  }
+
+  .skills-table th,
+  .skills-table td {
+    padding: 3px;
+    border: none;
+  }
+
+  .skill-logo {
+    width: 30px; /* Further reduce skill logo size */
+  }
 }
