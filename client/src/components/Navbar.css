@@ -100,3 +100,41 @@ span {
   font-size: 20px;
   color: #f7eedd;
 }
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  /* Mobile view */
+  .navbar {
+    justify-content: space-between; /* Space out the navbar content */
+    padding: 0 10px;
+  }
+
+  .menu-bars {
+    display: block; /* Display menu bars on mobile */
+    margin: 0;
+  }
+
+  .nav-menu {
+    width: 80%; /* Adjust the width of the nav menu */
+  }
+
+  .nav-text a {
+    padding: 10px 16px; /* Adjust padding */
+  }
+}
+
+@media (max-width: 480px) {
+  /* Mobile view */
+  .navbar {
+    padding: 0 5px;
+  }
+
+  .nav-menu {
+    width: 70%; /* Further adjust the width of the nav menu */
+  }
+
+  .nav-text a {
+    font-size: 16px; /* Reduce font size */
+    padding: 8px 10px; /* Adjust padding */
+  }
+}
