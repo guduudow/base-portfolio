@@ -5,7 +5,6 @@ import Footer from "../components/Footer";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Skills from "../pages/Skills";
 import Projects from "../pages/Projects";
-import CSS from "../assets/CSS.svg";
 import { Link } from "react-router-dom";
 
 function Home() {
