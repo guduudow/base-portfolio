@@ -16,16 +16,28 @@
   padding: 15px;
   border-radius: 12px;
   border: 1px solid #41c9e2;
+  flex-wrap: wrap;
 }
 
 .project-image {
   flex: 1;
   max-width: 320px;
+  display: flex;
+  justify-content: center;
+}
+
+.project-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
 }
 
 .project-details {
   flex: 3;
   padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .project-name {
@@ -36,6 +48,8 @@
 
 .project-link {
   list-style: none;
+  display: flex;
+  align-items: center;
 }
 
 .project-link svg {
@@ -51,4 +65,41 @@
 
 .project-list {
   padding-top: 6px;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  /* Adjustments for tablets */
+  .project-section {
+    flex-direction: column;
+  }
+
+  .project-image {
+    max-width: 100%;
+  }
+
+  .project-details {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Adjustments for mobile */
+  .title-font {
+    font-size: 1.5em;
+    padding: 20px;
+  }
+
+  .project-section {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .project-details {
+    padding-left: 0;
+  }
+
+  .project-name {
+    font-size: 1em;
+  }
 }
